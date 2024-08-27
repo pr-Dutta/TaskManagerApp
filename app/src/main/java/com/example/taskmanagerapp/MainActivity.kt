@@ -48,11 +48,11 @@ fun TaskCompletedScreen(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        val image = painterResource(R.drawable.ic_task_completed)
-        Image(
-            painter = image,
-            contentDescription = null
-        )
+//        val image = painterResource(R.drawable.ic_task_completed)
+//        Image(
+//            painter = image,
+//            contentDescription = null
+//        )
 
         Text(
             text = stringResource(R.string.all_task_completed),
